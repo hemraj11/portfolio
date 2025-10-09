@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Web Developer & Designer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- AOS Animation Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="javascript:void(0)" class="logo">Hem<span>Raj</span></a>
+
+        <ul class="nav-links" id="nav-links">
+          <li class="nav-link active"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#skills">Skills</a></li>
+          <li class="nav-link"><a href="#projects">Projects</a></li>
+          <li class="nav-link"><a href="#resume">Resume</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </div>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container">
+        <div class="hero-content" data-aos="fade-right">
+          <p class="greeting">Hello, I'm</p>
+          <h1 class="hero-name">Hem Raj Ojha</h1>
+          <div class="typing-container">
+            <h2 class="hero-title" id="typing-text">
+              Web Developer & Designer
+            </h2>
+          </div>
+          <p class="hero-desc">
+            I craft responsive websites where technologies meet creativity.
+            Building digital experiences that combine innovation with
+            user-friendly design.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+            <a href="#projects" class="btn btn-outline">View My Work</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://github.com/hemraj11" aria-label="GitHub Profile"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/hemraj-ojha-7871361a1" aria-label="LinkedIn Profile"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/HemRaj54529381?t=CGQBQtUGcZIOFEy3bQdg0A&s=09" aria-label="Twitter Profile"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/hemraj.oza13" aria-label="Facebook"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero-image" data-aos="fade-left">
+          <img
+            src="images/1710600327625.jpg"
+            alt="Hem Raj Portrait"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="hero-image" data-aos="fade-right">
+          <img
+            src="images/1710600327625.jpg"
+            alt="About Me Image"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="about-content" data-aos="fade-left">
+          <h2 class="about-title">About Me</h2>
+          <p class="about-text">
+            I'm a passionate Full Stack Web Developer with 5+ years of
+            experience building modern, responsive web applications. My journey
+            in web development began when I discovered my passion for creating
+            digital experiences that solve real-world problems.
+          </p>
+          <p class="about-text">
+            I specialize in JavaScript and its various frameworks, with a focus
+            on React for front-end and Node.js for back-end development. My
+            approach combines clean code with thoughtful design to create
+            solutions that are both beautiful and functional.
+          </p>
+
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span>hemrajojha2613@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span>+977-9845302613</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Dhangadhi-03,Kailali, Nepal</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Computer Science, BSc</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="100">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h3 class="skill-name">HTML5</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="200">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <h3 class="skill-name">CSS3</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="300">
+            <i class="fab fa-js skill-icon"></i>
+            <h3 class="skill-name">JavaScript</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="400">
+            <i class="fab fa-react skill-icon"></i>
+            <h3 class="skill-name">React</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="500">
+            <i class="fab fa-node-js skill-icon"></i>
+            <h3 class="skill-name">Node.js</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="600">
+            <i class="fas fa-database skill-icon"></i>
+            <h3 class="skill-name">MongoDB</h3>
+          </div>
+
+          <div class="skill-item" data-aos="flip-up" data-aos-delay="700">
+            <i class="fab fa-git-alt skill-icon"></i>
+            <h3 class="skill-name">Git</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+          <div class="project-card" data-aos="fade-up">
+            <div class="project-image">
+              <img
+                src="images/bloodbank system.jpg"
+                alt="BloodBank Website"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML/CSS/JS</span>
+                <span class="project-tag">PHP</span>
+                <span class="project-tag">MySQl</span>
+              </div>
+              <h3 class="project-title">BloodBank System</h3>
+              <p class="project-description">
+                A full-stack blood bank solution with features like request, donate, search blood, and admin
+                dashboard.
+              </p>
+              <div class="project-links">
+                <a href="javascript:void(0)" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="javascript:void(0)" class="project-link">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img
+                src="#"
+                alt="Portfolio Website"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A responsive personal portfolio website to showcase projects,
+                skills, and professional experience with a modern design.
+              </p>
+              <div class="project-links">
+                <a href="javascript:void(0)" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="javascript:void(0)" class="project-link">
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume section" id="resume">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume-container">
+          <div class="resume-column" data-aos="fade-right">
+            <h3 class="resume-title">Education</h3>
+
+            <div class="resume-item">
+              <div class="resume-date">
+                <i class="fas fa-calendar"></i> 2019 - 2021
+              </div>
+              <h4 class="resume-position">
+                High School in Science and Mathematics
+              </h4>
+              <h5 class="resume-company">
+                Galaxy Higher Secondary School, Kailali
+              </h5>
+              <p class="resume-description">
+                Graduated with honors. Specialized in Science stream with subjects including Physics, Chemistry, Mathematics, and Computer Science.Achieved strong academic performance and participated in
+                extracurricular activities such as [Debates, Science
+                Exhibitions, Sports, etc].
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-date">
+                <i class="fas fa-calendar"></i> 2021 - Present
+              </div>
+              <h4 class="resume-position">
+                Bachelor in Computer Science and Information Technology
+              </h4>
+              <h5 class="resume-company">Far Western University, Kailali</h5>
+              <p class="resume-description">
+                Focused on advanced web technologies, cloud computing, AI/ML and UI/UX design principles. Completed reports on progressive web
+                applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-column" data-aos="fade-left">
+            <h3 class="resume-title">Experience</h3>
+
+            <div class="resume-item">
+              <div class="resume-date">
+                <i class="fas fa-calendar"></i> 2024 - Present
+              </div>
+              <h4 class="resume-position">Front-end Developer</h4>
+              <h5 class="resume-company">Code IT</h5>
+              <p class="resume-description">
+                Lead the development of internal tools and dashboards.Implement best practices for web
+                accessibility and performance.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-date">
+                <i class="fas fa-calendar"></i> 2024 - Present
+              </div>
+              <h4 class="resume-position">Full Stack Developer</h4>
+              <h5 class="resume-company">Code IT</h5>
+              <p class="resume-description">
+                Developed new features for the main platform. Worked on
+                improving site performance and reliability. Collaborated with
+                cross-functional teams.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-download" data-aos="zoom-in">
+          <a href="/cv/HemrajOjha Resume.pdf" class="btn">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-container">
+          <div class="contact-info" data-aos="fade-right">
+            <h3 class="contact-title">Let's talk about everything!</h3>
+            <p class="contact-text">
+              Don't like forms? Send me an email or connect with me via social
+              media. I'd love to hear from you!
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Email</h4>
+                <p>hemrajojha2613@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Phone</h4>
+                <p>+977-9845302613</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-item-content">
+                <h4>Location</h4>
+                <p>Dhangadhi-03, Kailali, Nepal</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" data-aos="fade-left" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                class="form-control"
+                placeholder="Enter subject"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <a href="images/logo.png" class="footer-logo"
+          >Hem<span>Raj</span></a>
+
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="https://github.com/hemraj11" aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/hemraj-ojha-7871361a1" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/HemRaj54529381?t=CGQBQtUGcZIOFEy3bQdg0A&s=09" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/hemraj.oza13" aria-label="Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+
+        <p class="footer-text">&copy; 2024 Hem Raj Ojha. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- TypedJS Library for typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
